@@ -191,4 +191,37 @@ main { /* USED FOR ALL MAIN SECTIONS */
 
 }
 
+.general-content {
+	color: black;
+	text-align: center;
+	align-content: center;
+	
+}
+.general-content img {
+	margin: 10px;
+}
 
+/* GOOGLE MAPS EMBED */
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#contact-top {
+	background-color: black;
+}
+
+.contact-titles { /*you can use this class to decor the titles. For now only used in contact page */
+	background-color: #0E0116;
+	color: white;
+}
