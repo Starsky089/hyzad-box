@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main-header {
+	padding: 0 0;
+}
+
+header .row {
+	background-color: black;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+}
+
+header .nav-items-left {
+	display: flex;
+	justify-content: flex-end;
+	text-align: center;
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+}
+header .nav-items-right {
+	display: flex;
+	justify-content: flex-start;
+	text-align: center;
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+}
+
+header .nav-items-center {
+	text-align: center;	
+}
+
+.nav-items-center .nav-logo-img {
+	border: solid 2px black;
+	color: red;
+	max-height: 80px;
+	align-content: center;
+}
+
+#main-top .container-fluid {
+	background-image: url(../images/bg_alpaca.jpg);
+	background-color: black;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 1000px;
+}
+
+#bgvid {
+	position: fixed;
+	background-position: center;
+	z-index: -1;
+}
+
+#main_top .jumbotron {
+	color: red;
+	height: 800px
+}
+
+.look-of-day {
+	max-width: 80%;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+#look-of-day .row {
+	
+	background-color: black;
+	text-align: left;
+	align-items: center;
+	margin: 40px;	
+}
+
+#look-of-day h1 {
+	color: purple;
+}
+
+#look-of-day p {
+	color: yellow;
+}
+
+#testimonial figure {
+	
+	max-width: 50%;
+	text-align: center;
+	border: solid 3px;
+	margin: 40px;
+	font-style: italic;
+}
+
+#testimonial .row {
+	background-image: url(../images/alpaca.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	align-content: center;
+}
+
+.main-footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#logo-footer .footer-logo-img {
+	border: solid 1px;
+	height: 100px;
+	width: 100px;
+}
+
+footer .upper-footer {
+	border-bottom: solid 1px white;
+	font-size: 15px;
+}
+
+footer .lower-footer {
+	border-top: solid 1px white;
+	text-align: justify-center;
+	font-size: 10px;
+	padding: 5px;
+}
+
+.lower-footer .copyright-box {
+	align-self: center;	
+}
+
+main {
+	max-height: auto;
+	color: white;
+	text-align: center;
+
+}
+
+
+#gallery-women {
+	background-image: url(../images/llama_female.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: fixed;
+	background-color: #0E0116;
+}
+
+#gallery-men {
+	background-image: url(../images/llama_male.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-attachment: fixed;
+	background-color: #0E0116;
+
+}
+
+.gallery-row {
+	color: black;
+	text-align: center;
+	
+	
+}
+
+
+.gallery-items {
+	padding: 25px;
+	
+
+}
+
+
