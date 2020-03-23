@@ -7,6 +7,9 @@
 	padding: 0 0;
 }
 
+
+/*NAVBAR HEADER*/
+
 header .row {
 	background-color: black;
 	align-items: center;
@@ -40,7 +43,9 @@ header .nav-items-center {
 	align-content: center;
 }
 
-#main-top .container-fluid {
+/* HOMEPAGE */
+
+#main-top .container-fluid { /* background img. INSERT IMAGE OR VIDEO HERE. */
 	background-image: url(../images/bg_alpaca.jpg);
 	background-color: black;
 	background-size: cover;
@@ -49,22 +54,26 @@ header .nav-items-center {
 	height: 1000px;
 }
 
-#bgvid {
+#bgvid { /* lines used for video NOT WORKING ATM */
 	position: fixed;
 	background-position: center;
 	z-index: -1;
 }
 
-#main_top .jumbotron {
+#main_top .jumbotron { /* old placeholder. Now only referencing #main top. Ignore this line for now*/
 	color: red;
 	height: 800px
 }
 
-.look-of-day {
+
+/* LOOK OF THE DAY SECTION. Look of the day picture is set in the html!!*/
+
+.look-of-day { /*this affects the image */
 	max-width: 80%;
 	padding: 10px;
 	margin-bottom: 40px;
 }
+
 
 #look-of-day .row {
 	
@@ -82,7 +91,10 @@ header .nav-items-center {
 	color: yellow;
 }
 
-#testimonial figure {
+
+/* TESTIMONIAL SECTION */
+
+#testimonial figure { /* text of testimonial section */
 	
 	max-width: 50%;
 	text-align: center;
@@ -91,13 +103,15 @@ header .nav-items-center {
 	font-style: italic;
 }
 
-#testimonial .row {
+#testimonial .row { /* background of the testimonial section. INSERT IMAGE HERE */
 	background-image: url(../images/alpaca.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 800px;
 	align-content: center;
 }
+
+/* MAIN FOOTER */
 
 .main-footer {
 	text-align: center;
@@ -111,10 +125,14 @@ header .nav-items-center {
 	width: 100px;
 }
 
+/* this row contains about info, logo and contact icons */
+
 footer .upper-footer {
 	border-bottom: solid 1px white;
 	font-size: 15px;
 }
+
+/*this row contains disclaimer and copyright items */
 
 footer .lower-footer {
 	border-top: solid 1px white;
@@ -127,13 +145,14 @@ footer .lower-footer {
 	align-self: center;	
 }
 
-main {
+main { /* USED FOR ALL MAIN SECTIONS */
 	max-height: auto;
 	color: white;
 	text-align: center;
 
 }
 
+/* WOMANWEAR BACKGROUND */
 
 #gallery-women {
 	background-image: url(../images/llama_female.jpg);
@@ -143,6 +162,7 @@ main {
 	background-attachment: fixed;
 	background-color: #0E0116;
 }
+/* MEANWEAR BACKGROUND */
 
 #gallery-men {
 	background-image: url(../images/llama_male.jpg);
@@ -154,6 +174,8 @@ main {
 
 }
 
+/* ROW CONTAINING THE GALLERY PICTURES IN WOMEN AND MENWEAR - USED NOW FOR TEXT COLOR AND ALIGN */
+
 .gallery-row {
 	color: black;
 	text-align: center;
@@ -161,6 +183,7 @@ main {
 	
 }
 
+/*THE GALLERY PICTURES THEMSELVES AT WOMEN AND MENWEAR */
 
 .gallery-items {
 	padding: 25px;
