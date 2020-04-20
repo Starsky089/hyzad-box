@@ -164,24 +164,31 @@ header .nav-items-center {
 }
 
 
-/* TESTIMONIAL SECTION */
+/* TESTIMONIAL SECTION NOW CALLED CONTACT SECTION in homepage*/
 
-#testimonial figure { /* text of testimonial section */
+#contact-hm figure { /* text of contact section section */
 	
 	max-width: 50%;
 	text-align: center;
+	align-content: center;
 	border: solid 3px;
-	margin: 40px;
+	margin: 0px;
 	font-style: italic;
 }
 
-#testimonial .row { /* background of the testimonial section. INSERT IMAGE HERE */
+#contact-hm .row { /* background of the contact section. INSERT BUILDING IMAGE HERE */
 	
 	background-image: url(../images/alpaca.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 800px;
 	align-content: center;
+
+}
+
+#contact-hm #map-hm {
+
+	margin-top: 10px;
 
 }
 
@@ -252,6 +259,8 @@ main { /* USED FOR ALL MAIN SECTIONS */
 .gallery-row {
 	color: black;
 	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
 	
 	
 }
@@ -300,4 +309,24 @@ main { /* USED FOR ALL MAIN SECTIONS */
 .contact-titles { /*you can use this class to decor the titles. For now only used in contact page */
 	background-color: #0E0116;
 	color: white;
+}
+
+#ourvision .row {
+
+	background-image: url(../images/alpaca.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	align-content: center;
+
+}
+
+#justification-section .row {
+
+	background-color: black;
+	height: 800px;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+
 }
