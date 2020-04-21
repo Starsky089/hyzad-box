@@ -79,72 +79,20 @@ header .nav-items-center {
 	align-content: center;
 }
 */
-header .row {
-	background-color: white;
-	align-items: center;
-	font-size: 20px;
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 500;
-	line-height: 1.2;
-	margin: 0 0 5px;
-	color: 000000;
-}
 
-header .nav-items-left {
-	display: flex;
-	justify-content: flex-end;
-	text-align: center;
-	color: black;
-
-}
-header .nav-items-right {
-	display: flex;
-	justify-content: flex-start;
-	text-align: center;
-}
-
-header .nav-items-center {
-	text-align: center;	
-}
-
-.nav-items-center .nav-logo-img {
-	
-	color: red;
-	max-height: 80px;
-	align-content: center;
-}
 
 
 /* HOMEPAGE */
 
-#main-top .container-fluid { /* background img. INSERT IMAGE OR VIDEO HERE. */
-	background-image: url(../images/bg_alpaca.jpg);
-	background-color: black;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	height: 1000px;
-}
+header .nav-link {
 
-#bgvid { /* lines used for video NOT WORKING ATM */
-	position: fixed;
-	background-position: center;
-	z-index: -1;
-}
 
-#main_top .jumbotron { /* old placeholder. Now only referencing #main top. Ignore this line for now*/
-	color: red;
-	height: 800px
+
 }
 
 
 /* LOOK OF THE DAY SECTION. Look of the day picture is set in the html!!*/
 
-.look-of-day { /*this affects the image */
-	max-width: 80%;
-	padding: 50px;
-	margin-bottom: 40px;
-}
 
 
 #look-of-day .row {
@@ -159,29 +107,53 @@ header .nav-items-center {
 	color: #A300F9;
 }
 
-#look-of-day p {
+
+#lookofday-img {
+
+	background-image: url(../images/fashion_alpaca.jpg);
+	background-size: cover;
+	margin: 100px;
+	max-width: 600px;
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 150px;
+
+}
+
+#lookofday-txt p {
+
+	text-align: center;
 	color: #FFFF00;
+
 }
 
 
-/* TESTIMONIAL SECTION */
+/* TESTIMONIAL SECTION NOW CALLED CONTACT SECTION in homepage*/
 
-#testimonial figure { /* text of testimonial section */
+#contact-hm figure { /* text of contact section section */
 	
 	max-width: 50%;
 	text-align: center;
+	align-content: center;
 	border: solid 3px;
-	margin: 40px;
+	margin: 0px;
 	font-style: italic;
 }
 
-#testimonial .row { /* background of the testimonial section. INSERT IMAGE HERE */
+#contact-hm .row { /* background of the contact section. INSERT BUILDING IMAGE HERE */
 	
 	background-image: url(../images/alpaca.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 800px;
+	height: 900px;
 	align-content: center;
+
+}
+
+#contact-hm #map-hm {
+
+	margin-top: 10px;
 
 }
 
@@ -252,6 +224,8 @@ main { /* USED FOR ALL MAIN SECTIONS */
 .gallery-row {
 	color: black;
 	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
 	
 	
 }
@@ -300,4 +274,24 @@ main { /* USED FOR ALL MAIN SECTIONS */
 .contact-titles { /*you can use this class to decor the titles. For now only used in contact page */
 	background-color: #0E0116;
 	color: white;
+}
+
+#ourvision .row {
+
+	background-image: url(../images/alpaca.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	align-content: center;
+
+}
+
+#justification-section .row {
+
+	background-color: black;
+	height: 800px;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+
 }
