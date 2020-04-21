@@ -110,7 +110,7 @@ header .nav-link {
 
 #lookofday-img {
 
-	background-image: url(../images/fashion_alpaca.jpg);
+	background-image: url("../images/LookOfTheDay.jpg");
 	background-size: cover;
 	margin: 100px;
 	max-width: 600px;
@@ -250,6 +250,11 @@ main { /* USED FOR ALL MAIN SECTIONS */
 .general-content img {
 	margin: 10px;
 }
+
+.img-fluid {
+max-width: 100%; 
+height: auto; 
+} 
 
 /* GOOGLE MAPS EMBED */
 
