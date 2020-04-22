@@ -42,6 +42,30 @@ h6 {
 .main-header {
 	padding: 0 0;
 }
+/*HEADER*/
+.navbar {
+background-color: black;
+font-family: 'Bebas Neue', cursive;
+font-size:25px;
+
+}
+/* list items in navbar need to have li a properties to change color, dont delete!*/
+.navbar li a{
+	color:white;}
+/*custom toggler*/
+ 
+.custom-toggler.navbar-toggler { 
+            border-color: rgb(147, 0, 252); 
+            border-width: 2px;
+        } 
+
+        /* Setting the stroke to yellow using rgb values (244, 255, 18) */ 
+          
+.custom-toggler .navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244, 255, 18, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        } 
+
 
 
 /*NAVBAR HEADER*/
@@ -131,19 +155,10 @@ header .nav-link {
 
 /* TESTIMONIAL SECTION NOW CALLED CONTACT SECTION in homepage*/
 
-#contact-hm figure { /* text of contact section section */
-	
-	max-width: 50%;
-	text-align: center;
-	align-content: center;
-	border: solid 3px;
-	margin: 0px;
-	font-style: italic;
-}
 
 #contact-hm .row { /* background of the contact section. INSERT BUILDING IMAGE HERE */
 	
-	background-image: url("../images/DavidBlackWall");
+	background-image: url(../images/david_blackwall.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 900px;
@@ -153,9 +168,7 @@ header .nav-link {
 
 #contact-hm #map-hm {
 
-	margin-top: 10px;
 
-}
 
 /* MAIN FOOTER */
 
@@ -268,7 +281,7 @@ height: auto;
     left:0;
     top:0;
     height:100%;
-    width:100%;
+    width:80%;
     position:absolute;
 }
 
@@ -292,9 +305,9 @@ height: auto;
 }
 
 #justification-section .row {
-
+ /* changed height to auto otherwise carousel has fitting issues */
 	background-color: black;
-	height: 800px;
+	height: auto;
 	align-content: center;
 	text-align: center;
 	justify-content: center;
