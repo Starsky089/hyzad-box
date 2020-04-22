@@ -98,7 +98,9 @@ margin-bottom:0px;
 margin-top:50px;
 
 }
-video {border-bottom: solid 4px #F4FF12;}
+video {border-bottom: solid 4px #F4FF12;
+margin-bottom:0px;
+margin-top:0px;}
 /* LOOK OF THE DAY SECTION. Look of the day picture is set in css*/
 
 
@@ -178,7 +180,7 @@ footer{
 footer .upper-footer {
 	border-bottom: solid 3px #F4FF12;
 	font-size: 15px;
-	margin-top:30px;
+	margin-top:0px;
 }
 
 /*this row contains disclaimer and copyright items */
