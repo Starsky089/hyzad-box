@@ -79,6 +79,7 @@ font-size:25px;
 main { /* USED FOR ALL MAIN SECTIONS */
 	max-height: auto;
 	color: white;
+	border-bottom: solid 50px #000000;
 
 }
 
@@ -97,8 +98,8 @@ border-bottom: solid 50px #000000;
 }
 
 #main-bottom{
-
-
+margin-top:50px;
+padding-top:0px;
 
 
 }
@@ -202,6 +203,7 @@ footer{
 /* this row contains about info, logo and contact icons */
 
 footer .upper-footer {
+	border-top: solid 3px #F4FF12;
 	border-bottom: solid 3px #F4FF12;
 	font-size: 15px;
 	border-top: solid px #000000;
@@ -215,8 +217,8 @@ footer .lower-footer {
 	
 	text-align: justify-center;
 	font-size: 10px;
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 	
 }
 
