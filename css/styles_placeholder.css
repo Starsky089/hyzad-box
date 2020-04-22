@@ -127,7 +127,11 @@ margin-top:0px;}
 
 #lookofday-txt p {
 
-	color: #FFFF00;
+	color: black;
+	align-content: center;
+	align-self: center;
+	align-content: center;
+	text-align: center;
 
 }
 
@@ -335,7 +339,7 @@ height: auto;
 
 
 
-/* THIS SECTION IS A TEST our values text overflow*/
+/* THIS SECTION IS our values text overflow*/
 
 .card {
   position: relative;
@@ -377,4 +381,4 @@ height: auto;
   text-align: center;
 }
 
-/*THE CODE ABOVE IS A TEST*/
+/*THE CODE ABOVE IS the text overlay*/
