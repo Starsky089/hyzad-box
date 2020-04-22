@@ -13,6 +13,8 @@ h6 {
 
 h1 {
 	font-size: 36px;
+	color:#9300FC;
+	text-align: center;
 }
 
 h2 {
@@ -39,8 +41,9 @@ h6 {
 	padding: 0;
 }
 
-.main-header {
+header {
 	padding: 0 0;
+	border-bottom: solid 4px #F4FF12;
 }
 /*HEADER*/
 .navbar {
@@ -68,102 +71,82 @@ font-size:25px;
 
 
 
-/*NAVBAR HEADER*/
-/* original navbar header css
-header .row {
-	background-color: black;
-	align-items: center;
-	color: white;
-	font-size: 20px;
-}
-
-header .nav-items-left {
-	display: flex;
-	justify-content: flex-end;
-	text-align: center;
-	border-top: solid 2px white;
-	border-bottom: solid 2px white;
-}
-header .nav-items-right {
-	display: flex;
-	justify-content: flex-start;
-	text-align: center;
-	border-top: solid 2px white;
-	border-bottom: solid 2px white;
-}
-
-header .nav-items-center {
-	text-align: center;	
-}
-
-.nav-items-center .nav-logo-img {
-	border: solid 2px black;
-	color: red;
-	max-height: 80px;
-	align-content: center;
-}
-*/
-
-
-
 /* HOMEPAGE */
 
-header .nav-link {
-
-
+main { /* USED FOR ALL MAIN SECTIONS */
+	max-height: auto;
+	background-color: black;
+	color: white;
 
 }
 
+/*margins are set separetely for each id*/
+#main-top {
+margin-top:0px;
+padding-top: 0px;
+margin-bottom: 50px;
 
+}
+
+#main-middle{
+margin-bottom:50px;
+margin-top:50px;
+
+}
+
+#main-bottom{
+margin-bottom:0px;
+margin-top:50px;
+
+}
+video {border-bottom: solid 4px #F4FF12;}
 /* LOOK OF THE DAY SECTION. Look of the day picture is set in css*/
 
 
 
-#look-of-day .row {
+/*#look-of-day .row {
 	
 	background-color: black;
 	text-align: left;
 	align-items: center;
-	margin: 40px;	
 }
 
 #look-of-day h1 {
 	color: #A300F9;
 }
 
-
+*/
 #lookofday-img {
 
 	background-image: url("../images/lookoftheday2.jpg");
 	background-size: cover;
-	margin: 100px;
 	max-width: 600px;
 	height: 600px;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin: 150px;
+	
 
 }
 
 #lookofday-txt p {
 
-	text-align: center;
+	text-align: right;
 	color: #FFFF00;
 
 }
 
 
 /* TESTIMONIAL SECTION NOW CALLED CONTACT SECTION in homepage*/
-
-#contact-hm figure { /* text of contact section section */
+/* What is this???
+#contact-hm figure { /* text of contact section section /
 	
 	max-width: 50%;
 	text-align: center;
 	align-content: center;
 	border: solid 3px;
-	margin: 0px;
 	font-style: italic;
 }
+*/
 
 #contact-hm .row { /* background of the contact section. INSERT BUILDING IMAGE HERE */
 	
@@ -177,15 +160,15 @@ header .nav-link {
 
 #contact-hm #map-hm {
 
-	margin-top: 10px;
 
 }
 
 /* MAIN FOOTER */
-
+footer{
+	background-color: black;
+}
 .main-footer {
 	text-align: center;
-	background-color: black;
 	color: white;
 }
 
@@ -197,8 +180,9 @@ header .nav-link {
 /* this row contains about info, logo and contact icons */
 
 footer .upper-footer {
-	border-bottom: solid 1px white;
+	border-bottom: solid 3px #F4FF12;
 	font-size: 15px;
+	margin-top:30px;
 }
 
 /*this row contains disclaimer and copyright items */
@@ -207,19 +191,13 @@ footer .lower-footer {
 	
 	text-align: justify-center;
 	font-size: 10px;
-	padding: 5px;
+	
 }
 
 .lower-footer .copyright-box {
 	align-self: center;	
 }
 
-main { /* USED FOR ALL MAIN SECTIONS */
-	max-height: auto;
-	color: white;
-	text-align: center;
-
-}
 
 /* WOMANWEAR BACKGROUND */
 
@@ -272,7 +250,6 @@ main { /* USED FOR ALL MAIN SECTIONS */
 	
 }
 .general-content img {
-	margin: 10px;
 }
 
 .img-fluid {
