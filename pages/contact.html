@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="icon" type="image/png" href="../images/icon_nav_tab.png">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 
@@ -18,38 +20,101 @@
 
 <body>
 <!--------------- NAVIGATIONAL BAR ------------------------>
-<header class="container-fluid main-header">
-	<div class="row navbar">
-		<!------- NAV BAR ITEMS LOCATED ON THE LEFT OF LOGO --------->
-		<nav class="col-12 col-sm-12 col-md-5 nav-items-left">
-			<ul class="nav nav nav-justified">	
-				<li class="nav-item">
-					<a class="nav-link" href="../pages/women.html"><p>Women</p></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="../pages/men.html"><p>Men</p></a>
-				</li>
-			</ul>
-		</nav>
-		<!------------------ THE LOGO AREA ---------------->
-			<div class="col-12 col-sm-12 col-md-2 nav-items-center" id="nav-logo">
-				<a href="../index.html"><img src="../images/hyzad_logo_yellow.png" alt=" Hyzad_logo" class="nav-logo-img img-fluid"></a> <!-- LOGO IMAGE NEEDS TO CHANGE TO SMALLER PNG VERSION!!!! -->
-			</div>	
-		<!------- NAV BAR ITEMS LOCATED ON THE RIGHT OF LOGO --------->		
-			
-		<nav class="col-12 col-sm-12 col-md-5 nav-items-right">
-				<ul class="nav nav nav-justified">
-					<li class="nav-item">
-				<a class="nav-link" href="../pages/aboutus.html"><p>AboutUs</p></a>
-					</li>
-			<li class="nav-item">
-				<a class="nav-link" href="../pages/contact.html"><p>Contact</p></a>
-			</li>
-				</ul>
-		</nav>
-	</div>
+<!--THIS IS THE ORIGINAL CODE FOR THE HEADER. WORK IN PROGRESS
+<header>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="../index.html"><img src="../images/hyzad_logo_yellow.png" width="50" height="50" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav"> 
+
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+
+		<li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Clothing
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <a class="dropdown-item" href="../pages/women.html">Womenwear</a>
+		          <a class="dropdown-item" href="../pages/men.html">Menwear</a> 
+		        </div>
+		</li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="../pages/contact.html">Contact</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="../pages/aboutus.html">About Us</a>
+      </li>
+
+
+    </ul>
+  </div>
+</nav>
+</header>
+-->
+	
+<!-- This is the code for the new header -->
+	
+<header>
+
+<nav class="navbar navbar-expand-lg" style="color:white">
+
+<a class="navbar-brand" href="../index.html"><img src="../images/logo.png" width="70" height="70" alt="logo"></a>
+
+<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+<ul class="navbar-nav">
+
+<li class="nav-item active">
+
+<a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+
+</li>
+
+<li class="nav-item dropdown">
+
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+Clothing
+
+</a>
+
+<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+<a class="dropdown-item" href="../pages/women.html">Womenwear</a>
+
+<a class="dropdown-item" href="../pages/men.html">Menwear</a>
+
+</div>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="../pages/contact.html">Contact</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="../pages/aboutus.html">About Us</a>
+</li>
+
+</ul>
+</div>
+</nav>
 </header>
 
+	
 <body>
 	
 <main>
@@ -59,35 +124,59 @@
 		<div class="row general-content" id="contact-top">
 			<div class="col-12 contact-titles">
 			<h1>CONTACT US</h1>
+			</div>
 
-				<!--<iframe width="1252" height="704" src="https://www.youtube.com/embed/jnLSYfObARA?list=PLGmxyVGSCDKvmLInHxJ9VdiwEb82Lxd2E?&autoplay=1&mute=1&rel=0&showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-			</div>
 			<div class="col-12 col-md-8" id="contact-img">
-				<img src="../images/contact_alpaca.jpg" align="center" alt="contact_image" width="75%">
+				<img src="../images/HangingGoal.jpg" class="img-fluid" align="center" alt="contact_image" width="50%" height="50%">
 			</div>
-			<div class="col-12 col-md-2"></div>
-			<div class="col-12 col-md-2"></div>
+
+			<div class="col-12 col-md-4" id="icons-big-box">
+				
+				<div class="icon-big">
+						<a href="https://www.facebook.com/Hyzad-104455661183521/"><img src="../images/facebook_icon_color64.png" alt="facebook"></a>
+					</div>
+					<div class="icon-big">
+						<a href="https://www.instagram.com/hyzad_official/"><img src="../images/instagram_icon_color64.png" alt="instagram"></a>
+					</div>
+					<div class="icon-big">
+						<img src="../images/tiktok_icon_color64.png" alt="tiktok">
+					</div>
+
+
+			</div>
+		
 
 		</div>
 
-		<div class="row general-content" id="contact-bottom">
+<div class="row general-content" id="contact-bottom">
 
-			<div class="col-12">
+<div class="col-12">
 			<h2> OUR STORES </h2>
 			</div>
 
-			<div class="col-12 col-md-3">
-				<p width="100%">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis ante vitae pharetra condimentum. Nullam orci orci, consequat id leo vel, scelerisque pellentesque est. Proin tempus lorem ac hendrerit fringilla. </p>
-			</div>
-			<div class="col-12 col-md-6">
+			<div class="col-12 col-md-4">
+				<p width="100%">&nbsp; </p>
+				<strong id="docs-internal-guid-fdeea2c6-7fff-1b85-9b11-99cfaadaf85a">
+				<h1 dir="ltr">The Grove</h1>
+				<p dir="ltr">189 The Grove Dr, Los Angeles, CA 90036, Verenigde Staten</p>
+					
+				<h1 dir="ltr">THE BLOC</h1>	
+				<p dir="ltr">700 W 7th St, Los Angeles, CA 90017, Verenigde Staten</p>
+					
+				<h1 dir="ltr">Beverly Center</h1>	
+				<p dir="ltr">8500 Beverly Blvd, Los Angeles, CA 90048, Verenigde Staten</p>
+					
+				<h1 dir="ltr">FIGat7th</h1>	
+				<p dir="ltr">735 S Figueroa St, Los Angeles, CA 90017, Verenigde Staten</p>
+					
 				
+				</strong><br>
+			</div>
 
+			<div class="col-12 col-md-8"> <!-- Google Map section -->
 				<div class="map-responsive">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.78028077236!2d4.7934443156961954!3d51.590590179648814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c69f7c842233bd%3A0x86d18b2b99f0f778!2sBreda%20University%20of%20Applied%20Sciences!5e0!3m2!1sen!2snl!4v1584963187773!5m2!1sen!2snl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</div>
-			</div>
-			<div class="col-12 col-md-3">
-				
 			</div>
 
 		</div>	
@@ -142,8 +231,8 @@
 	
 	<!-- Optional JavaScript -->
     <!-- jQuery first, (Popper.js is included in the Bootstrap js), then Bootstrap JS -->
-    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../js/jquery-3.4.1.slim.min.js"></script>
     
-    <script src="js/bootstrap.bundle.min"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 	</body>
 	</html>
