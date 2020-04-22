@@ -161,14 +161,11 @@ header .nav-link {
 	background-image: url(../images/david_blackwall.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 900px;
-	align-content: center;
+	height: auto;
+	color: white;
+	
 
 }
-
-#contact-hm #map-hm {
-
-
 
 /* MAIN FOOTER */
 
@@ -275,14 +272,14 @@ height: auto;
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
+    height: 0;
 }
 .map-responsive iframe{
     left:0;
     top:0;
     height:100%;
-    width:80%;
-    position:absolute;
+    width:100%;
+    position: absolute;
 }
 
 #contact-top {
@@ -312,4 +309,10 @@ height: auto;
 	text-align: center;
 	justify-content: center;
 
+}
+
+
+ .test-class { 
+	/*this class is created just to test. Apply to anything and remove when done. DELETE THIS CLASS UPON DELIVERING WEBSITE*/
+	color: white;
 }
