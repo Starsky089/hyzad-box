@@ -91,7 +91,7 @@ header .nav-link {
 }
 
 
-/* LOOK OF THE DAY SECTION. Look of the day picture is set in the html!!*/
+/* LOOK OF THE DAY SECTION. Look of the day picture is set in css*/
 
 
 
@@ -230,7 +230,7 @@ main { /* USED FOR ALL MAIN SECTIONS */
 	
 }
 
-/*THE GALLERY PICTURES THEMSELVES AT WOMEN AND MENWEAR */
+/*THE GALLERY PICTURES THEMSELVES AT WOMEN AND MENWEAR. Valentijn added .img fluid selector*/
 
 .gallery-items {
 	padding: 15px;
