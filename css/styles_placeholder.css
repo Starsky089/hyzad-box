@@ -124,7 +124,12 @@ margin-top:0px;}
 */
 #lookofday-img {
 
-	height: auto;
+	background-image: url(../images/lookoftheday_3.jpg.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 1000px;
+	max-width: auto;
 
 }
 
