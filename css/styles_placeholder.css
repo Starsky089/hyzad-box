@@ -119,19 +119,12 @@ margin-top:0px;}
 */
 #lookofday-img {
 
-	background-image: url("../images/lookoftheday2.jpg");
-	background-size: cover;
-	max-width: 600px;
-	height: 600px;
-	background-position: center;
-	background-repeat: no-repeat;
-	
+	height: auto;
 
 }
 
 #lookofday-txt p {
 
-	text-align: right;
 	color: #FFFF00;
 
 }
