@@ -42,6 +42,30 @@ h6 {
 .main-header {
 	padding: 0 0;
 }
+/*HEADER*/
+.navbar {
+background-color: black;
+font-family: 'Bebas Neue', cursive;
+font-size:25px;
+
+}
+/* list items in navbar need to have li a properties to change color, dont delete!*/
+.navbar li a{
+	color:white;}
+/*custom toggler*/
+ 
+.custom-toggler.navbar-toggler { 
+            border-color: rgb(147, 0, 252); 
+            border-width: 2px;
+        } 
+
+        /* Setting the stroke to yellow using rgb values (244, 255, 18) */ 
+          
+.custom-toggler .navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244, 255, 18, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        } 
+
 
 
 /*NAVBAR HEADER*/
