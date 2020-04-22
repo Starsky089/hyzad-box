@@ -91,14 +91,15 @@ margin-bottom: 50px;
 }
 
 #main-middle{
-margin-bottom:50px;
+margin-bottom:0px;
 margin-top:50px;
-
+border-bottom: solid 50px #000000;
 }
 
 #main-bottom{
-margin-bottom:0px;
-margin-top:50px;
+
+
+
 
 }
 video {border-bottom: solid 4px #F4FF12;
@@ -151,9 +152,9 @@ margin-top:0px;}
 	/*background-image: url(../images/rooftop.jpg);
 	background-size: cover;
 	background-position: center;*/
-	background-color: black;
 	height: auto;
 	color: white;
+	background-color: black;
 	
 
 }
@@ -203,7 +204,7 @@ footer{
 footer .upper-footer {
 	border-bottom: solid 3px #F4FF12;
 	font-size: 15px;
-	margin-top:0px;
+	border-top: solid px #000000;
 	padding-bottom: 15px;
 	padding-top:15px;
 }
