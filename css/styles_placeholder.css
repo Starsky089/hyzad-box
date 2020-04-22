@@ -152,9 +152,10 @@ margin-top:0px;}
 
 #contact-hm .row { /* background of the contact section. INSERT BUILDING IMAGE HERE */
 	
-	background-image: url(../images/david_blackwall.jpg);
+	/*background-image: url(../images/rooftop.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center;*/
+	background-color: black;
 	height: auto;
 	color: white;
 	
