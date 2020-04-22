@@ -75,7 +75,6 @@ font-size:25px;
 
 main { /* USED FOR ALL MAIN SECTIONS */
 	max-height: auto;
-	background-color: black;
 	color: white;
 
 }
@@ -137,7 +136,7 @@ video {border-bottom: solid 4px #F4FF12;}
 
 
 /* TESTIMONIAL SECTION NOW CALLED CONTACT SECTION in homepage*/
-<<<<<<< HEAD
+
 /* What is this???
 #contact-hm figure { /* text of contact section section /
 	
@@ -148,9 +147,6 @@ video {border-bottom: solid 4px #F4FF12;}
 	font-style: italic;
 }
 */
-=======
-
->>>>>>> 62f2d985b26f88596db5d317e9309c3a2c695134
 
 #contact-hm .row { /* background of the contact section. INSERT BUILDING IMAGE HERE */
 	
