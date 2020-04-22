@@ -175,6 +175,8 @@ footer .upper-footer {
 	border-bottom: solid 3px #F4FF12;
 	font-size: 15px;
 	margin-top:0px;
+	padding-bottom: 15px;
+	padding-top:15px;
 }
 
 /*this row contains disclaimer and copyright items */
@@ -183,6 +185,8 @@ footer .lower-footer {
 	
 	text-align: justify-center;
 	font-size: 10px;
+	padding-bottom: 15px;
+	padding-top: 15px;
 	
 }
 
