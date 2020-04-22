@@ -55,6 +55,9 @@ font-size:25px;
 /* list items in navbar need to have li a properties to change color, dont delete!*/
 .navbar li a{
 	color:white;}
+.navbar li a:hover {
+	color:#F4FF12;}
+
 /*custom toggler*/
  
 .custom-toggler.navbar-toggler { 
@@ -153,6 +156,32 @@ margin-top:0px;}
 	color: white;
 	
 
+}
+/*button*/
+.btn{
+	background-color: #F4FF12;
+	border:none;
+	color:black;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 500;
+	line-height: 1.2;
+	margin: 0 0 16px;
+	font-size:25px;
+}
+.btn:active{
+	background-color: #F4FF12;
+	border:none;
+	color:black;
+}
+.btn:hover{
+	color:white;
+	background-color:#9300FC;
+	border:none;
+}
+.btn:focus{
+	background-color:#F4FF12;
+	color:black;
+	border:none;
 }
 
 /* MAIN FOOTER */
