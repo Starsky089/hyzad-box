@@ -80,6 +80,7 @@ main { /* USED FOR ALL MAIN SECTIONS */
 	max-height: auto;
 	color: white;
 	border-bottom: solid 50px #000000;
+	padding-bottom: 0px;
 
 }
 
@@ -95,6 +96,7 @@ margin-bottom: 50px;
 margin-bottom:0px;
 margin-top:50px;
 border-bottom: solid 50px #000000;
+padding-bottom:0px;
 }
 
 #main-bottom{
