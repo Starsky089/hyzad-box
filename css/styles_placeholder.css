@@ -323,6 +323,13 @@ height: auto;
 	color: white;
 }
 
+#icons-big-box h1 {
+	text-align: center;
+	align-items: center;
+	align-self: center;
+	align-content: center;
+}
+
 
 /*ABOUT US PAGE SECTION*/
 
