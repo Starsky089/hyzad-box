@@ -158,8 +158,6 @@ overflow:hidden;
 	color: white;
 	background-color: black;
 	border-top: solid 50px #000000;
-	border-bottom: solid 3px #F4FF12;
-	padding-bottom: 50px;
 
 }
 /*button*/
@@ -240,6 +238,8 @@ footer .lower-footer {
 	background-position: right;
 	background-attachment: fixed;
 	background-color: #0E0116;
+	padding-bottom: 50px;
+	padding-top:50px;
 }
 /* MEANWEAR BACKGROUND */
 
@@ -250,6 +250,8 @@ footer .lower-footer {
 	background-position: left;
 	background-attachment: fixed;
 	background-color: #0E0116;
+	padding-bottom: 50px;
+	padding-top:50px;
 
 }
 
@@ -309,6 +311,14 @@ height: auto;
 
 #contact-top {
 	background-color: black;
+<<<<<<< HEAD
+	border-bottom: solid 50px #000000;
+	border-top: solid 50px #000000;
+}
+#contact-bottom{
+	margin-bottom:50px;
+	margin-top:50px;
+=======
 	align-items: center;
 	padding-bottom: 30px;
 }
@@ -318,11 +328,15 @@ height: auto;
 	align-items: center;
 	padding-bottom: 20px;
 
+>>>>>>> 0fbf7b57a677edf06e7fe98e4ee46e1b7737ee2c
 }
 
 .contact-titles { /*you can use this class to decor the titles. For now only used in contact page */
 	background-color: #0E0116;
 	color: white;
+}
+#icons-big-box {
+	align-content: left;
 }
 
 #icons-big-box h1 {
@@ -360,7 +374,7 @@ height: auto;
 }
 
 #justification-section{
-	border-bottom: solid 50px #000000;
+	
 	border-top: solid 50px #000000;
 }
 .values_row .v-box {
