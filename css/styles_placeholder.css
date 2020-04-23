@@ -58,6 +58,7 @@ font-size:25px;
 .navbar li a:hover {
 	color:#F4FF12;}
 
+
 /*custom toggler*/
  
 .custom-toggler.navbar-toggler { 
@@ -233,7 +234,7 @@ footer .lower-footer {
 /* WOMANWEAR BACKGROUND */
 
 #gallery-women {
-	background-image: url(../images/llama_female.jpg);
+	background-image: 
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right;
@@ -243,7 +244,7 @@ footer .lower-footer {
 /* MEANWEAR BACKGROUND */
 
 #gallery-men {
-	background-image: url(../images/llama_male.jpg);
+	background-image: 
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left;
