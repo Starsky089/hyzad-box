@@ -58,6 +58,7 @@ font-size:25px;
 .navbar li a:hover {
 	color:#F4FF12;}
 
+
 /*custom toggler*/
  
 .custom-toggler.navbar-toggler { 
@@ -231,7 +232,7 @@ footer .lower-footer {
 /* WOMANWEAR BACKGROUND */
 
 #gallery-women {
-	background-image: url(../images/llama_female.jpg);
+	background-image: 
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right;
@@ -243,7 +244,7 @@ footer .lower-footer {
 /* MEANWEAR BACKGROUND */
 
 #gallery-men {
-	background-image: url(../images/llama_male.jpg);
+	background-image: 
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left;
@@ -306,14 +307,28 @@ height: auto;
     position: absolute;
 }
 
+/*CONTACT PAGE SECTION*/
+
 #contact-top {
 	background-color: black;
+<<<<<<< HEAD
 	border-bottom: solid 50px #000000;
 	border-top: solid 50px #000000;
 }
 #contact-bottom{
 	margin-bottom:50px;
 	margin-top:50px;
+=======
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+#contact-bottom {
+	padding-top: 20px;
+	align-items: center;
+	padding-bottom: 20px;
+
+>>>>>>> 0fbf7b57a677edf06e7fe98e4ee46e1b7737ee2c
 }
 
 .contact-titles { /*you can use this class to decor the titles. For now only used in contact page */
@@ -324,7 +339,19 @@ height: auto;
 	align-content: left;
 }
 
+#icons-big-box h1 {
+	text-align: center;
+	align-items: center;
+	align-self: center;
+	align-content: center;
+}
+
+
+/*ABOUT US PAGE SECTION*/
+
+
 /*ABOUT US PAGE*/
+
 #ourvision .row {
 
 	background-image: url("../images/david_blackwall.jpg");
