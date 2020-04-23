@@ -95,34 +95,21 @@ margin-bottom: 50px;
 
 #main-middle{
 
-margin-top:50px;
-padding-bottom: 50px;
-border-bottom: solid 4px #F4FF12;
-align-content:center;
-align-self: center;
-
-
-}
-
-#main-bottom{
-
+	margin-top:50px;
+	padding-bottom: 50px;
+	border-bottom: solid 4px #F4FF12;
+	align-content:center;
+	align-self: center;
 
 }
+
+
 video {border-bottom: solid 4px #F4FF12;
 margin-bottom:0px;
 margin-top:0px;}
-/* LOOK OF THE DAY SECTION. Look of the day picture is set in css*/
 
+/* LOOK OF THE DAY SECTION.*/
 
-/*
-#look-of-day .row {
-	
-	padding-bottom: 50px;
-	border-bottom: solid 4px #F22222;
-}
-
-
-*/
 
 #lookofday-txt {
 	text-align: center;
@@ -133,24 +120,9 @@ margin-top:0px;}
 #main-middle .img-fluid{
 overflow:hidden;
 }
-/* TESTIMONIAL SECTION NOW CALLED CONTACT SECTION in homepage*/
 
-/* What is this???
-#contact-hm figure { /* text of contact section section /
-	
-	max-width: 50%;
-	text-align: center;
-	align-content: center;
-	border: solid 3px;
-	font-style: italic;
-}
-*/
 
-#contact-hm .row { /* background of the contact section. INSERT BUILDING IMAGE HERE */
-	
-	/*background-image: url(../images/rooftop.jpg);
-	background-size: cover;
-	background-position: center;*/
+#contact-hm .row { /* background of the contact section. */
 	height: auto;
 	color: white;
 	background-color: black;
@@ -225,7 +197,6 @@ footer .lower-footer {
 	align-self: center;	
 }
 
-
 /* WOMANWEAR BACKGROUND */
 
 #gallery-women {
@@ -260,7 +231,6 @@ footer .lower-footer {
 	margin-left: 150px;
 	margin-right: 150px;
 	
-	
 }
 
 /*THE GALLERY PICTURES THEMSELVES AT WOMEN AND MENWEAR. Valentijn added .img fluid selector*/
@@ -271,7 +241,6 @@ footer .lower-footer {
 	flex-wrap: wrap;
 	justify-content: center;
 
-
 }
 
 .general-content {
@@ -279,8 +248,6 @@ footer .lower-footer {
 	text-align: center;
 	align-content: center;
 	
-}
-.general-content img {
 }
 
 .img-fluid {
@@ -322,7 +289,7 @@ height: auto;
 	padding-top: 20px;
 	align-items: center;
 	padding-bottom: 20px;
-
+}
 
 .contact-titles {
 	background-color: black;
@@ -353,14 +320,14 @@ height: auto;
 	padding-top: 80px;
 }
 
-#ourvision_txt p {
+#ourvision_txt h3 {
 
 	text-align: center;
 }
 
 #values-row{
 	margin-bottom:50px;
-	margin-top:50px;
+	margin-top:20px;
 }
 
 #justification-section{
@@ -386,6 +353,10 @@ height: auto;
 	text-align: center;
 	justify-content: center;
 
+}
+
+#justification-carousel {
+	align-self: center;
 }
 
 /* THIS SECTION IS our values text overflow*/
