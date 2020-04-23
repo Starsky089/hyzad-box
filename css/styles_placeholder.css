@@ -93,15 +93,15 @@ margin-bottom: 50px;
 }
 
 #main-middle{
-margin-bottom:0px;
+
 margin-top:50px;
-border-bottom: solid 50px #000000;
-padding-bottom:0px;
+padding-bottom: 50px;
+border-bottom: solid 4px #F4FF12;
+
+
 }
 
 #main-bottom{
-margin-top:50px;
-padding-top:0px;
 
 
 }
@@ -111,27 +111,23 @@ margin-top:0px;}
 /* LOOK OF THE DAY SECTION. Look of the day picture is set in css*/
 
 
-
-/*#look-of-day .row {
+/*
+#look-of-day .row {
 	
-	background-color: black;
-	text-align: left;
-	align-items: center;
+	padding-bottom: 50px;
+	border-bottom: solid 4px #F22222;
 }
 
-#look-of-day h1 {
-	color: #A300F9;
-}
 
 */
 
 #lookofday-txt p {
 
 	color: black;
-	align-content: center;
+	/*align-content:left;
 	align-self: center;
-	align-content: center;
-	text-align: center;
+	align-content: center;*/
+	text-align: left;
 
 }
 
@@ -157,7 +153,9 @@ margin-top:0px;}
 	height: auto;
 	color: white;
 	background-color: black;
-	
+	border-top: solid 50px #000000;
+	border-bottom: solid 3px #F4FF12;
+	padding-bottom: 50px;
 
 }
 /*button*/
@@ -204,8 +202,7 @@ footer{
 /* this row contains about info, logo and contact icons */
 
 footer .upper-footer {
-	border-top: solid 3px #F4FF12;
-	border-bottom: solid 3px #F4FF12;
+	border-top: solid 4px #F4FF12
 	font-size: 15px;
 	border-top: solid px #000000;
 	padding-bottom: 15px;
@@ -220,6 +217,7 @@ footer .lower-footer {
 	font-size: 10px;
 	padding-bottom: 5px;
 	padding-top: 5px;
+	border-top: solid 4px #F4FF12;
 	
 }
 
