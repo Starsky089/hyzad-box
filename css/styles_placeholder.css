@@ -162,6 +162,7 @@ overflow:hidden;
 
 }
 /*button*/
+.btn-contact{text-align:center;}
 .btn{
 	background-color: #F4FF12;
 	border:none;
