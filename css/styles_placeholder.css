@@ -304,14 +304,25 @@ height: auto;
     position: absolute;
 }
 
+/*CONTACT PAGE SECTION*/
+
 #contact-top {
 	background-color: black;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+#contact-bottom {
+	padding-top: 20px;
+
 }
 
 .contact-titles { /*you can use this class to decor the titles. For now only used in contact page */
 	background-color: #0E0116;
 	color: white;
 }
+
+/*ABOUT US PAGE SECTION*/
 
 #ourvision .row {
 
