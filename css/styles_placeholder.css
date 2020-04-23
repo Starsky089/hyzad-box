@@ -367,8 +367,8 @@ height: auto;
 	
 	border-top: solid 50px #000000;
 }
+
 .values_row .v-box {
-	
 	text-align: center;
 }
 
@@ -388,14 +388,6 @@ height: auto;
 
 }
 
-
- .test-class { 
-	/*this class is created just to test. Apply to anything and remove when done. DELETE THIS CLASS UPON DELIVERING WEBSITE*/
-	color: white;
-}
-
-
-
 /* THIS SECTION IS our values text overflow*/
 
 .value-card {
@@ -403,15 +395,6 @@ height: auto;
   align-content: center;
   width: 100%;
 }
-
-/* NOT SURE WHAT THIS DOES
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-*/
 
 .overlay {
   position: absolute;
