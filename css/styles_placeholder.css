@@ -329,6 +329,17 @@ height: auto;
 	text-align: center;
 }
 
+.values_row .v-box {
+	
+	text-align: center;
+}
+
+.card-img {
+	max-height: 500px;
+	width: auto;
+
+}
+
 #justification-section .row {
  /* changed height to auto otherwise carousel has fitting issues */
 	background-color: black;
@@ -349,16 +360,20 @@ height: auto;
 
 /* THIS SECTION IS our values text overflow*/
 
-.card {
+.value-card {
   position: relative;
-  width: 50%;
+  align-content: center;
+  width: 100%;
 }
 
+/* NOT SURE WHAT THIS DOES
 .image {
   display: block;
   width: 100%;
   height: auto;
 }
+
+*/
 
 .overlay {
   position: absolute;
@@ -372,13 +387,13 @@ height: auto;
   transition: .5s ease;
 }
 
-.card:hover .overlay {
+.value-card:hover .overlay {
   bottom: 0;
   height: 100%;
 }
 
 .card-title {
-  color: white;
+  color: #9300FC;
   font-size: 20px;
   position: absolute;
   top: 50%;
