@@ -313,6 +313,7 @@ height: auto;
 	color: white;
 }
 
+/*ABOUT US PAGE*/
 #ourvision .row {
 
 	background-image: url("../images/david_blackwall.jpg");
@@ -329,6 +330,15 @@ height: auto;
 	text-align: center;
 }
 
+#values-row{
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+#justification-section{
+	border-bottom: solid 50px #000000;
+	border-top: solid 50px #000000;
+}
 .values_row .v-box {
 	
 	text-align: center;
