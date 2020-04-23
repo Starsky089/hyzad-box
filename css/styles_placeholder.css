@@ -124,14 +124,11 @@ margin-top:0px;}
 
 */
 
-#lookofday-txt h1 {
-
-	color: black;
-	/*align-content:left;
+#lookofday-txt {
+	text-align: center;
 	align-self: center;
-	align-content: center;*/
-	text-align: left;
-
+	padding-right: 50px;
+	
 }
 #main-middle .img-fluid{
 overflow:hidden;
@@ -311,14 +308,12 @@ height: auto;
 
 #contact-top {
 	background-color: black;
-<<<<<<< HEAD
 	border-bottom: solid 50px #000000;
 	border-top: solid 50px #000000;
 }
 #contact-bottom{
 	margin-bottom:50px;
 	margin-top:50px;
-=======
 	align-items: center;
 	padding-bottom: 30px;
 }
@@ -328,13 +323,12 @@ height: auto;
 	align-items: center;
 	padding-bottom: 20px;
 
->>>>>>> 0fbf7b57a677edf06e7fe98e4ee46e1b7737ee2c
-}
 
-.contact-titles { /*you can use this class to decor the titles. For now only used in contact page */
-	background-color: #0E0116;
+.contact-titles {
+	background-color: black;
 	color: white;
 }
+
 #icons-big-box {
 	align-content: left;
 }
@@ -350,17 +344,13 @@ height: auto;
 /*ABOUT US PAGE SECTION*/
 
 
-/*ABOUT US PAGE*/
-
 #ourvision .row {
-
-	background-image: url("../images/david_blackwall.jpg");
+	background-image: url(../images/david_blackwall.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	height: 800px;
 	padding-top: 80px;
-	
 }
 
 #ourvision_txt p {
