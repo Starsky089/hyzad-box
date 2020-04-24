@@ -1,0 +1,455 @@
+/*headers by Daria*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 500;
+	line-height: 1.2;
+	margin: 0 0 16px;
+}
+
+h1 {
+	font-size: 36px;
+	color:#9300FC;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 0 0;
+	border-bottom: solid 4px #F4FF12;
+}
+/*HEADER*/
+.navbar {
+background-color: black;
+font-family: 'Bebas Neue', cursive;
+font-size:25px;
+
+}
+/* list items in navbar need to have li a properties to change color, dont delete!*/
+.navbar li a{
+	color:white;}
+.navbar li a:hover {
+	color:#F4FF12;}
+
+
+/*custom toggler*/
+ 
+.custom-toggler.navbar-toggler { 
+            border-color: rgb(147, 0, 252); 
+            border-width: 2px;
+        } 
+
+        /* Setting the stroke to yellow using rgb values (244, 255, 18) */ 
+          
+.custom-toggler .navbar-toggler-icon { 
+            background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244, 255, 18, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        } 
+
+
+
+/* HOMEPAGE */
+
+main { /* USED FOR ALL MAIN SECTIONS */
+	max-height: auto;
+	color: white;
+	border-bottom: solid 50px #000000;
+	padding-bottom: 0px;
+
+}
+
+/*margins are set separetely for each id*/
+#main-top {
+margin-top:0px;
+padding-top: 0px;
+margin-bottom: 50px;
+
+}
+
+#main-middle{
+
+margin-top:50px;
+padding-bottom: 50px;
+border-bottom: solid 4px #F4FF12;
+align-content:center;
+align-self: center;
+
+
+}
+
+#main-bottom{
+
+
+}
+video {border-bottom: solid 4px #F4FF12;
+margin-bottom:0px;
+margin-top:0px;}
+/* LOOK OF THE DAY SECTION. Look of the day picture is set in css*/
+
+
+/*
+#look-of-day .row {
+	
+	padding-bottom: 50px;
+	border-bottom: solid 4px #F22222;
+}
+
+
+*/
+
+#lookofday-txt h1 {
+
+	color: black;
+	/*align-content:left;
+	align-self: center;
+	align-content: center;*/
+	text-align: left;
+
+}
+#main-middle .img-fluid{
+overflow:hidden;
+}
+/* TESTIMONIAL SECTION NOW CALLED CONTACT SECTION in homepage*/
+
+/* What is this???
+#contact-hm figure { /* text of contact section section /
+	
+	max-width: 50%;
+	text-align: center;
+	align-content: center;
+	border: solid 3px;
+	font-style: italic;
+}
+*/
+
+#contact-hm .row { /* background of the contact section. INSERT BUILDING IMAGE HERE */
+	
+	/*background-image: url(../images/rooftop.jpg);
+	background-size: cover;
+	background-position: center;*/
+	height: auto;
+	color: white;
+	background-color: black;
+	border-top: solid 50px #000000;
+
+}
+/*button*/
+.btn-contact{text-align:center;}
+.btn{
+	background-color: #F4FF12;
+	border:none;
+	color:black;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 500;
+	line-height: 1.2;
+	margin: 0 0 16px;
+	font-size:25px;
+}
+.btn:active{
+	background-color: #F4FF12;
+	border:none;
+	color:black;
+}
+.btn:hover{
+	color:white;
+	background-color:#9300FC;
+	border:none;
+}
+.btn:focus{
+	background-color:#F4FF12;
+	color:black;
+	border:none;
+}
+
+/* MAIN FOOTER */
+footer{
+	background-color: black;
+}
+.main-footer {
+	text-align: center;
+	color: white;
+}
+
+#logo-footer .footer-logo-img {
+	height: 100px;
+	width: 100px;
+}
+
+/* this row contains about info, logo and contact icons */
+
+footer .upper-footer {
+	border-top: solid 4px #F4FF12
+	font-size: 15px;
+	border-top: solid px #000000;
+	padding-bottom: 15px;
+	padding-top:15px;
+}
+
+/*this row contains disclaimer and copyright items */
+
+footer .lower-footer {
+	
+	text-align: justify-center;
+	font-size: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-top: solid 4px #F4FF12;
+	
+}
+
+.lower-footer .copyright-box {
+	align-self: center;	
+}
+
+
+/* WOMANWEAR BACKGROUND */
+
+#gallery-women {
+	background-image: 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: fixed;
+	background-color: #0E0116;
+	padding-bottom: 50px;
+	padding-top:50px;
+}
+/* MEANWEAR BACKGROUND */
+
+#gallery-men {
+	background-image: 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-attachment: fixed;
+	background-color: #0E0116;
+	padding-bottom: 50px;
+	padding-top:50px;
+
+}
+
+/* ROW CONTAINING THE GALLERY PICTURES IN WOMEN AND MENWEAR - USED NOW FOR TEXT COLOR AND ALIGN */
+
+.gallery-row {
+	color: black;
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	
+	
+}
+
+/*THE GALLERY PICTURES THEMSELVES AT WOMEN AND MENWEAR. Valentijn added .img fluid selector*/
+
+.gallery-items {
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+}
+
+.general-content {
+	color: black;
+	text-align: center;
+	align-content: center;
+	
+}
+.general-content img {
+}
+
+.img-fluid {
+max-width: 100%; 
+height: auto; 
+} 
+
+/* GOOGLE MAPS EMBED */
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height: 0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position: absolute;
+}
+
+/*CONTACT PAGE SECTION*/
+
+#contact-top {
+	background-color: black;
+
+	border-bottom: solid 50px #000000;
+	border-top: solid 50px #000000;
+}
+#contact-bottom{
+	margin-bottom:50px;
+	margin-top:50px;
+
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+#contact-bottom {
+	padding-top: 20px;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.contact-titles { /*you can use this class to decor the titles. For now only used in contact page */
+	background-color: #0E0116;
+	color: white;
+}
+
+#icons-big-box {
+	align-content: left;
+}
+
+#icons-big-box h1 {
+	text-align: center;
+	align-items: center;
+	align-self: center;
+	align-content: center;
+}
+
+
+/*ABOUT US PAGE SECTION*/
+
+
+/*ABOUT US PAGE*/
+
+#ourvision .row {
+
+	background-image: url("../images/david_blackwall.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 800px;
+	padding-top: 80px;
+	
+}
+
+#ourvision_txt p {
+
+	text-align: center;
+}
+
+#values-row{
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+#justification-section{
+	
+
+	border-top: solid 50px #000000;
+}
+.values_row .v-box {
+	
+	text-align: center;
+}
+
+.card-img {
+	max-height: 500px;
+	width: auto;
+
+}
+
+#justification-section .row {
+ /* changed height to auto otherwise carousel has fitting issues */
+	background-color: black;
+	height: auto;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+
+}
+
+
+ .test-class { 
+	/*this class is created just to test. Apply to anything and remove when done. DELETE THIS CLASS UPON DELIVERING WEBSITE*/
+	color: white;
+}
+
+
+
+/* THIS SECTION IS our values text overflow*/
+
+.value-card {
+  position: relative;
+  align-content: center;
+  width: 100%;
+}
+
+/* NOT SURE WHAT THIS DOES
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+*/
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #F4FF12;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.value-card:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.card-title {
+  color: #9300FC;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*THE CODE ABOVE IS the text overlay*/
